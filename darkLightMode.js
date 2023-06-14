@@ -38,12 +38,12 @@ DrawHalfCircle = () => {
 // First style
 let Style_tag = document.createElement("link");
 Style_tag.setAttribute("rel", "stylesheet");
-Style_tag.href = "Body/body.css";
+Style_tag.href = "./body.css";
 DrawHalfCircle();
 // second Style
 let dark_bg = document.createElement("link");
 dark_bg.setAttribute("rel", "stylesheet");
-dark_bg.href = "Body/dark.css";
+dark_bg.href = "./dark.css";
 
 if (boolean__ == 2) {
     document.head.append(Style_tag);
