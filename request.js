@@ -14,7 +14,7 @@ function ShowError(msg) {
 let Hdurl = [];
 
 // import { error } from "console";
-import { template } from ".template.js";
+import { template } from "./template.js";
 export async function getData() {
     let request = "https://api.nasa.gov/planetary/apod?api_key=3Rc60K0tWQ2o30fNBiepniHJytEbf1wkX0c7YgU6&count=" + 20;
     await fetch(request).then((respond_01) => {
