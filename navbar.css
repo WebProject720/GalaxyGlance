@@ -1,0 +1,176 @@
+.home-logo-a {
+    text-decoration: none;
+}
+
+.logo-heading {
+    padding: 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0%;
+    color: black;
+}
+
+nav {
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    color: black;
+}
+
+.navbar-toggle-img {
+    width: 40px;
+    padding-right: 2px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-button {
+    font-size: larger;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    color: black;
+}
+
+.all-button:hover {
+    box-shadow: 5px 2px 5px rgb(128, 128, 128), -5px -2px 5px gray;
+}
+
+.all-button:active {
+    box-shadow: 5px 2px 5px rgb(78, 70, 70), -5px -2px 5px rgb(61, 67, 57);
+}
+
+.input-text-nav {
+    outline: none;
+    width: 60%;
+}
+
+
+.two-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons {
+    padding-right: 20px;
+}
+
+.navbar-btn-box {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .buttons {
+        display: none;
+        margin-top: 15px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .search-form {
+        flex-wrap: wrap;
+    }
+
+    .navbar-btn-box {
+        display: unset;
+    }
+}
+
+@media screen and (max-width:700px) {
+    nav {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+.navbarbtn {
+    background-color: transparent;
+    border: none;
+    margin: 0%;
+}
+
+/* Night and Days Mode */
+.darkLightModeBtn {
+    border: 0px solid black;
+    background-color: transparent;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+.navbar-link {
+    display: inline-block;
+    padding: 6px 10px 5px 10px;
+}
+
+#dark-light-mode {
+    transform: rotate(90deg);
+}
+
+/* Error Box */
+.error {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index: 10;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.error-child {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: #ff3434cf;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-cancel-button {
+    background-color: transparent;
+    width: 40px;
+    border: 0px;
+    height: 40px;
+}
+
+.cancel-error-box {
+    height: 40px;
+}

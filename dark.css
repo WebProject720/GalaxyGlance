@@ -1,0 +1,97 @@
+/* Second Design */
+:root{
+    --template-color:transparent;
+    --body-bg-color:#264141;
+    --main-template-details:#315252f7;
+}
+/* second dark design */
+:root{
+    --body-bg-color:black;
+    --main-template-details:#1f1e1e;
+    --template-border-color:rgb(150 146 146 / 44%);
+    --template-color:#35343440;
+}
+#content{
+    box-shadow:  0px 0px 20px var(--template-border-color) !important;
+}
+.post{
+    box-shadow:0px 0px 5px 5px var(--template-border-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* First Design */
+body {
+    /* background: linear-gradient(to bottom, #fcfdfd 0%, #e2ebf0 100%); */
+    background-color: #030327 !important;
+    background-color: #264141 !important;
+    background-color: var(--body-bg-color) !important;
+    color: #030327;
+    color: white;
+}
+
+/* main template at nigth */
+#content {
+    /* display: flex; */
+    background-color: #2f5649 !important;
+    background-color: transparent !important;
+}
+
+#details {
+    background-color: #295244 !important;
+    background-color: var(--main-template-details) !important;
+}
+
+#image-container {
+    border-color: gray !important;
+}
+/* templates */
+.person-name,
+.post-date {
+    color: rgb(209, 207, 207) !important;
+}
+
+.post-heading {
+    color: white;
+}
+
+.post {
+    /* background-color: #030327; */
+    background-color: var(--template-color);
+}
+
+.image-container-template {
+    border-color: gray !important;
+}
+.show-more-btn{
+    color: white;
+}
+
+/* Navbar night mode */
+nav{
+    background-color: var(--body-bg-color);
+}
+.logo-heading{
+    color: white;
+}
+.navbar-link{
+    color: white;
+}
+.all-button{
+    border-color: white;
+    color: white;
+}
+.all-button::placeholder{
+    color: white;
+}

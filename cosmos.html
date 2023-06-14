@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalaxyGlance</title>
+    <link rel="shortcut icon" href="../IMAGES/pexels-photo-1048039.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Navbar/navbar.css">
+    <link rel="stylesheet" href="auto-Scrolling-image/scroll_img.css">
+    <link rel="stylesheet" href="Main/main.css">
+    <link rel="stylesheet" href="./today_image/today_img.css">
+    <link rel="stylesheet" href="./loading-Event/loading-event.css">
+    <link rel="stylesheet" href="./today_image/FullScreenImg.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <!-- Full Screen Image -->
+    <section id="full-screen-section">
+        <div class="full-screen-container">
+            <div class="btn-cancel">
+                <canvas id="cancel-btn">
+
+                </canvas>
+            </div>
+            <div id="full-screen-container" class="full-img-container">
+                <!-- <img id="full-screen-image-tag" src="https://apod.nasa.gov/apod/image/2306/ic1396ASI294large_1030.jpg" alt="Error"
+                class="full-screen"> -->
+            </div>
+        </div>
+    </section>
+    <header>
+        <nav id="navbar">
+            <div class="title">
+                <a href="./galaxyglance.html" class="home-logo-a">
+                    <h1 class="logo-heading">GalaxyGlance</h1>
+                </a>
+            </div>
+            <div class="navbar-btn-box">
+                <button class="navbarbtn">
+                    <img id="navbar-toggle-btn" class="navbar-toggle-img" src="../Use images/navbarsvg.svg" alt="">
+                </button>
+            </div>
+            <div class="buttons" id="buttons-box">
+                <div class="login-signup-button two-buttons">
+                    <button class="all-button nav-link">
+                        <a class="navbar-link " href="./galaxyglance.html">Home</a>
+                    </button>
+                </div>
+                <div class="search-box">
+                    <form id="search-form-box" action="" class="search-form two-buttons">
+                        <input class="all-button input-text-nav" type="text" placeholder="DD-MM-YYYY"
+                            onfocus="(this.type='date')" name="" id="" placeholder="Search here" required>
+                        <input class="all-button" type="submit" value="Search">
+                    </form>
+                </div>
+                <div class="night-btn">
+                    <button id="darkLightMode" class="darkLightModeBtn">
+                        <div class="canvas-light-dark-container">
+                            <canvas id="dark-light-mode"></canvas>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Error Box -->
+        <div class="error" id="error-container">
+            <div class="error-child">
+                <div></div>
+                <div class="error-box">
+                    <p>
+                        <b>
+                            Alert :
+                        </b>
+                        <span id="error-msg">
+                            Something Went wrong
+                        </span>
+                    </p>
+                </div>
+                <div class="cancel-btn-container">
+                    <div class="cancel-error-box">
+                        <button id="cancel-error" class="error-cancel-button">
+                            <canvas id="error-cancel">
+                            </canvas>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="scrolling-image-section" id="scrolling-image-section">
+            <div class="child-si" id="bg-images">
+                <div class="img-container" id="auto-scroll-img-container">
+                </div>
+                <div id="intro-web" class="upperHeading">
+                    <!-- <div class="left-scroll-container scroll-container">
+                        <div class="left-scroll-box scroll-box">
+                            <button id="left-scroll" class="left-btn scroll-btn">Left</button>
+                        </div>
+                    </div> -->
+                    <div id="" class="space-intro">
+                        <h1>
+                            <center>
+                                Journey to the Stars: Exploring the Cosmos
+                            </center>
+                            <br>
+                        </h1>
+                        <p>
+                            Humans have always been fascinated by the vastness of the cosmos, and our relentless
+                            curiosity
+                            has led us to embark on a remarkable journey of space exploration. Through the use of
+                            advanced
+                            technology and scientific exploration, we have ventured beyond the confines of our planet,
+                            reaching out to distant stars and galaxies. With each mission, we uncover new wonders,
+                            expanding
+                            our knowledge of the universe and our place within it.
+                        </p>
+                    </div>
+                    <!-- <div class="right-scroll-container scroll-container">
+                        <div class="right-scroll-box scroll-box">
+                            <button id="right-scroll" class="right-btn scroll-btn">Right</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main-section-1">
+            <div id="today-image-section">
+                <div id="header">
+                    <h1 class="main-h1">Exploring the Cosmos: Beyond Earth's Bounds</h1>
+                </div>
+                <div id="loading-event-box">
+                </div>
+                <div id="content">
+                    <div class="image-sc-btn">
+                        <div id="image-container">
+                            <img id="image" src="" alt="Space Image">
+                        </div>
+                        <div class="container-function">
+                            <!-- <div class="download-btn-container">
+                                <button id="DownloadImage" title="Download" class="download-btn">
+                                        <canvas id="download-btn-img"></canvas>
+                                </button>
+                            </div> -->
+                            <div class="show-img-box">
+                                <button id="btn-full-screen" title="Full Screen" class="show-img-btn">
+                                    <canvas id="full-screen-image"></canvas>
+                                </button>
+                            </div>
+                            <div class="qulity-container">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="details">
+                        <h2 id="title"></h2>
+                        <p id="description"></p>
+                        <div id="info">
+                            <p id="publish-date">Publish on : </p>
+                            <p id="copywriter"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Template Container -->
+        <section class="main-section-2">
+            <div class="container" id="main-container">
+            </div>
+        </section>
+        <!-- Loading Event  -->
+        <div id="dot-loading-event" class="loading-event-container">
+            <div id="dot-1" class="dot-1 dot"></div>
+            <div id="dot-2" class="dot-2 dot"></div>
+            <div id="dot-3" class="dot-3 dot"></div>
+        </div>
+        <!-- More Button -->
+        <div class="show-more-btn-container">
+            <button id="show-more-image" class="show-more-btn">Show More</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img class="logo-footer-img" src="https://apod.nasa.gov/apod/image/0312/etrunkcomp_sst_full.jpg"
+                    alt="Your Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="./galaxyglance.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2023 GalaxyGlance. All rights reserved.</p>
+                <p>Powered by
+                    <a href="https://api.nasa.gov/" class="nasa-free-api">
+                        NASA Free API
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./Navbar/navbar.js"></script>
+<!-- <script type="module" src="./JS/scroll_img.js"></script> -->
+<script type="module" src="./JS/navigatorImg.js"></script>
+<script type="module" src="./Main/main.js"></script>
+<script type="module" src="./Main/template.js"></script>
+<script src="./Navbar/darkLightMode.js"></script>
+<script src="./today_image/FullScreenImage.js"></script>
+<script src="./today_image/downloadBtn.js"></script>
+<script src="./today_image/CancelBtn.js"></script>
+<script type="module" src="./auto-Scrolling-image/auto_scrolling_img.js"></script>
+<script src="./today_image/downloadImg.js"></script>
+
+</html>

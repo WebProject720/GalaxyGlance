@@ -1,0 +1,30 @@
+.full-screen-container{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 5px;
+}
+.full-screen{
+    height: 85vh;
+    max-width: 95vw;
+    max-height: 85vh;
+}
+#full-screen-section{
+    display: none;
+}
+.download-img-link{
+    height: 100%;
+    display: block;
+}
+.btn-cancel{
+    width: 100%;
+    padding-right: 20px;
+    text-align: end;
+}
+.full-img-container{
+    width: 50%;
+    overflow: scroll;
+}
