@@ -24,7 +24,7 @@ function AnimationScroll(Total_img_width) {
 
 
 
-import { getData, Hdurl } from '../JS/request.js';
+import { getData, Hdurl } from './request.js';
 await getData();
 let bg_img_arr = ['https://apod.nasa.gov/apod/image/2303/_GHR3094-venerelunafirma.jpg', 'https://apod.nasa.gov/apod/image/2303/Doodad200mmAPOD.jpg', '/IMAGES/pexels-photo-1048039.jpg', 'https://apod.nasa.gov/apod/image/2303/pressdracowithspacecraft1_1.jpg', 'https://apod.nasa.gov/apod/image/2303/my_hero_rot.jpg', 'https://apod.nasa.gov/apod/image/2303/ana03BennuVantuyne1465c.jpg', 'https://apod.nasa.gov/apod/image/2303/hyperion_cassini_1024.jpg', 'https://apod.nasa.gov/apod/image/2303/RainbowTree_Houck_3198.jpg', 'https://apod.nasa.gov/apod/image/2303/Soul_Jimenez_3940.jpg', 'https://apod.nasa.gov/apod/image/2303/JupiterVenus_Luy_5496.jpg', 'https://apod.nasa.gov/apod/image/2303/NGC5139_Omega_Centauri_3700px.jpg', 'https://apod.nasa.gov/apod/image/2303/medusaNeb.jpg'];
 bg_img_arr = [];
