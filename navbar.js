@@ -71,7 +71,7 @@ document.getElementById("search-form-box").addEventListener("submit", function (
     e.preventDefault();
     let date = (e.target[0].value);
     let a = document.createElement("a");
-    a.href = `./navigatorImg.html?query=${date}`;
+    a.href = `./cosmos.html?query=${date}`;
     if (CheckDate(date)) {
         a.click();
     }
