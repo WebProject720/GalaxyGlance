@@ -1,8 +1,6 @@
 # GalaxyGlance
-This Project is based on a HTML CSS and JS. I use a NASA free API for this project.
 
-This project I  create on my basic of HTML CSS and JS programming.
-https://webproject720.github.io/GalaxyGlance/index.html
+
 # NASA Space Image Viewer
 
 Explore the wonders of space with this web page project that fetches space images and their fascinating content from NASA's free API. Immerse yourself in the beauty of the cosmos and learn more about the universe.
