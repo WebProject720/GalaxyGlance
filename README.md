@@ -37,9 +37,9 @@ Check out the live demo [here](https://webproject720.github.io/GalaxyGlance/inde
 
 To use the NASA API, you need to [get your free API key](https://api.nasa.gov/) from NASA and replace `API_KEY` in the `script.js` file with your actual API key.
 
-#Contributing
+# Contributing
 Feel free to contribute by opening issues or creating pull requests. Your feedback and contributions are highly appreciated.
 
 
-#License
+# License
 This project is licensed under the WebProject License - see the LICENSE file for details.
